@@ -1,0 +1,527 @@
+body {
+    font-family: 'Maitree', sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 0; 
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 0; 
+}
+
+.content {
+    background-color: rgba(72, 170, 156, 0.4);
+}
+
+.circle {
+    width: 900px; /* Adjust the width as needed */
+    height: 600px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.3);
+    border-top-left-radius: 600px; /* Set the top-left corner radius to half of the width */
+    border-top-right-radius: 600px; /* Set the top-right corner radius to half of the width */
+    position: absolute; /* Set the position to absolute */
+    top: 300px; /* Adjust the top position as needed */
+    left: -350px; /* Adjust the left position as needed */
+    rotate: 90deg;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle2 {
+    width: 700px; /* Adjust the width as needed */
+    height: 500px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.3);
+    border-top-left-radius: 600px; /* Set the top-left corner radius to half of the width */
+    border-top-right-radius: 600px; /* Set the top-right corner radius to half of the width */
+    position: absolute; /* Set the position to absolute */
+    top: 600px; /* Adjust the top position as needed */
+    right: -350px; /* Adjust the left position as needed */
+    rotate: 270deg;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle3 {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.4);
+    border-radius: 50%;
+    position: absolute; /* Set the position to absolute */
+    top: 100px; /* Adjust the top position as needed */
+    right: 440px; /* Adjust the left position as needed */
+    rotate: 130deg;
+    z-index: -500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle4 {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.4);
+    border-radius: 50%;
+    position: absolute; /* Set the position to absolute */
+    top: 10px; /* Adjust the top position as needed */
+    left: 440px; /* Adjust the left position as needed */
+    rotate: 130deg;
+    z-index: -500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle5 {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.4);
+    border-radius: 50%;
+    position: absolute; /* Set the position to absolute */
+    top: -30px; /* Adjust the top position as needed */
+    right: -30px; /* Adjust the left position as needed */
+    rotate: 130deg;
+    z-index: -500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle6 {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.4);
+    border-radius: 50%;
+    position: absolute; /* Set the position to absolute */
+    top: 880px; /* Adjust the top position as needed */
+    right: 430px; /* Adjust the left position as needed */
+    rotate: 130deg;
+    z-index: -500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle7 {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.4);
+    border-radius: 50%;
+    position: absolute; /* Set the position to absolute */
+    top: 195px; /* Adjust the top position as needed */
+    right: 857px; /* Adjust the left position as needed */
+    rotate: 130deg;
+    z-index: -500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.circle8 {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Set the height to half of the width to create a semi-circle */
+    background: rgba(3, 73, 253, 0.4);
+    border-radius: 50%;
+    position: absolute; /* Set the position to absolute */
+    top: 1520px; /* Adjust the top position as needed */
+    right: 1330px; /* Adjust the left position as needed */
+    rotate: 130deg;
+    z-index: -500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.decorations img {
+    position: absolute;
+    top: 330px;
+    left: -50px;
+    width: 50vh;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.center-box {
+    text-align: center;
+}
+
+.name-box {
+    padding: 2px;
+    background: linear-gradient(to top, #ffffff, #E8DED8 50%);
+    width: 930px; 
+    height: 100px;
+    margin: 0 auto; 
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.3, 0.3);
+    z-index: 999;
+}
+
+.picture {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    background-image: url('./assets/me.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    border: 3px transparent;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.3, 0.3);
+    margin-bottom: 20px;
+}
+
+.switch-label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+#MeAfter {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 999;
+    background: white;
+  }
+
+#switchCheckbox1:checked + #MeAfter {
+    display: block;
+}
+
+.Biography {
+    padding: 2px;
+    margin-top: 20px;
+    width: 658px;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Biography-line {
+    border: 1px solid black;
+    margin:20px 0;
+    width: 264px;
+}
+
+.Connections img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+.hi:hover {
+    cursor: pointer;
+}
+input.customCheckbox {
+    width: 0px;
+    height: 0px;
+}
+
+#twitterModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: yellow;
+    z-index: 999;
+  }
+#twitterCheckbox:checked + #twitterModal {
+    display: block;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.Portfolio {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.Portfolio-line {
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 264px;
+}
+
+.Hoya-Airplanes-content {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 900px;
+    height: 100%;
+    background: linear-gradient(to bottom right, #E8DED8, rgb(186, 223, 224));
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.3, 0.3);
+}
+
+.Year1 {
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+.Hoya-Airplanes-picture-container {
+    width: 600px;
+    height: 290px;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.3, 0.3);
+}
+
+.Hoya-Airplanes-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px; 
+}
+
+input.Switch-checkbox {
+    height: 0px;
+    width: 0px;
+}
+.switch-label:hover {
+    cursor: pointer;
+}
+
+#SecondPage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 999;
+    background: white;
+  }
+
+#switchCheckbox:checked + #SecondPage {
+    display: block;
+}
+
+.HTML1, .CSS1 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgba(3, 73, 253, 0.3);
+    width: 10%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.Bottom-Row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+.Hoya-Airplanes-Git-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+.Hoya-Airplanes-Git {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+.Detail1 {
+    width: calc(50% - 5px); 
+    text-align: center;
+  }
+
+.Personal-Website-content {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 900px;
+    height: 100%;
+    background: linear-gradient(to bottom left, #E8DED8, rgb(186, 223, 224));
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.3, 0.3);
+}
+
+.Year2 {
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+.Personal-Website-picture-container {
+    width: 600px;
+    height: 290px;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0.2, 0.3, 0.3, 0.3);
+}
+
+.Personal-Website-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px; 
+}
+
+.HTML2, .CSS2 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgba(3, 73, 253, 0.3);
+    width: 10%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.Bottom-Row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+.Personal-Website-Git-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+.Personal-Website-Git {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+.Detail2 {
+    width: calc(50% - 5px); 
+    text-align: center;
+  }
+
+.Skills {
+    padding: 20px;
+    background-color: rgba(3, 73, 253, 0.3);
+    margin-top: 20px;
+}
+
+.Skills-content {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.Skills-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Languages, .Design, .Other {
+    margin-top: 5px;
+    width: 30%;
+}
+
+.Contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #E8DED8;
+}
+
+.Contact-content-left, .Contact-content-right {
+    width: 30%;
+}
+
+.Contact-content-left {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.Contact-content-left h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Contact-info > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Contact-info img {
+    margin-right: 10px;
+    width: 40px; 
+    height: 40px;
+}
+
+.Contact-content-right {
+    width: 50%; 
+    margin: 0 auto; 
+}
+
+.Contact-content-right h3 {
+    margin-bottom: 20px;
+}
+
+.Name {
+    margin-bottom: 10px;
+}
+
+.Email {
+    margin-bottom: 10px; 
+}
+
+.Message {
+    top: 0;
+    right: 0;
+    margin-bottom: 55px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+button {
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #005599;
+}
+
+.To-the-tooop img{
+    rotate: 270deg;
+    width: 20px; 
+    height: 20px;
+    margin-bottom: -10px;
+}
